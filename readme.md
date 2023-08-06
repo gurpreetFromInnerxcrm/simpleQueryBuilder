@@ -24,7 +24,7 @@ You can install simpleQueryBuilder via Composer. Simply add the following line t
 ```bash
 {
     "require": {
-        "robinksp/siimple-query-builder": "^1.0"
+        "robinksp/querybuilder": "^1.0"
     }
 }
 
@@ -34,7 +34,7 @@ Alternatively, you can run the following command directly in your project root:
 
 ```bash
 
-composer require robinksp/siimple-query-builder:^1.0
+composer require robinksp/querybuilder:^1.0
 
 ```
 
