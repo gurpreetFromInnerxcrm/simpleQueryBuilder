@@ -1,6 +1,6 @@
 <?php
 
-namespace simpleQueryBuilder\Connection;
+namespace Builder\Connection;
 
 use PDO;
 

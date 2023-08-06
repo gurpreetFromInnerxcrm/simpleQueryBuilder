@@ -1,12 +1,12 @@
 <?php
 
-namespace simpleQueryBuilder;
+namespace Builder;
 
 use Exception;
-use simpleQueryBuilder\Connection\MySqlConnection;
+use Builder\Connection\MySqlConnection;
 
 
-class Builder extends MySqlConnection
+class Query extends MySqlConnection
 {
     protected $select = '*';
 
