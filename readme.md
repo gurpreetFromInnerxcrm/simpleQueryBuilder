@@ -1,7 +1,7 @@
 
 # simpleQueryBuilder
 
-simpleQueryBuilder is a PHP library that provides a simple and easy-to-use query builder for constructing SQL queries. It allows you to build complex SELECT queries with various conditions, joins, and more. The library is designed to be lightweight, flexible, and suitable for a wide range of PHP projects.
+simpleQueryBuilder is a PHP library that provides a simple and easy-to-use query builder for constructing SQL queries. It allows you to build complex SELECT queries with various conditions, joins, and more. Currently building not available for all type of databases. Contributions are welcome ❤️
 
 # Features
 
