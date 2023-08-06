@@ -46,8 +46,7 @@ class Query extends Mysql
         }
 
         $columns = implode(', ', array_keys($data));
-        $values = implode(', ', array_map(fn ($value) => $this->quoteValue($value), $this->insert));
-
+        $values = implode(', ', array_map(fn ($value) => $this->quoteValue($value), $data));
         $query = "INSERT INTO {$this->table} ($columns) VALUES ($values)";
 
         try {
