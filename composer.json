@@ -1,0 +1,19 @@
+{
+    "name": "robinkashyap/simple-query-builder",
+    "description": "A simple query builder for php applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin kashyap",
+            "email": "robinkashyap@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YourPackageName\\": "src/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev"
+}
