@@ -1,9 +1,9 @@
 <?php
 
-namespace Builder;
+namespace QueryBuilder;
 
 use Exception;
-use Builder\Connection\Mysql;
+use QueryBuilder\Connection\Mysql;
 
 
 class Query extends Mysql

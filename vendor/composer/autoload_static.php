@@ -9,12 +9,12 @@ class ComposerStaticInite43dfeec0b0c9bd792f79054fde4b359
     public static $prefixLengthsPsr4 = array (
         'r' => 
         array (
-            'robinkashyap\\simple-query-builder\\' => 34,
+            'robinksp\\querybuilder\\' => 22,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'robinkashyap\\simple-query-builder\\' => 
+        'robinksp\\querybuilder\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

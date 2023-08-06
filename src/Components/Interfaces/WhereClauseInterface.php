@@ -1,6 +1,6 @@
 <?php
 
-namespace QueyrBuilder\Components\Interfaces\Conditions;
+namespace QueyrQueryBuilder\Components\Interfaces\Conditions;
 
 class WhereCondition
 {

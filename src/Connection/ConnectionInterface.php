@@ -1,6 +1,6 @@
 <?php
 
-namespace Builder\Connection;
+namespace QueryBuilder\Connection;
 
 interface ConnectionInterface
 {

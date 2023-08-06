@@ -1,6 +1,6 @@
 <?php
 
-namespace QueyrBuilder\Query;
+namespace QueyrQueryBuilder\Query;
 
 
 interface QueryInterface

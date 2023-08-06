@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'robin/simple-query-builder',
+        'name' => 'robin/querybuilder',
         'pretty_version' => '1.0.0+no-version-set',
         'version' => '1.0.0.0',
         'reference' => NULL,
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'robin/simple-query-builder' => array(
+        'robin/querybuilder' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
             'reference' => NULL,
