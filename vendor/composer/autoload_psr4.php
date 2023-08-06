@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'SimpleQueryBuilder\\Querybuilder\\' => array($baseDir . '/src'),
+    'robinkashyap\\simple-query-builder\\' => array($baseDir . '/src'),
 );
