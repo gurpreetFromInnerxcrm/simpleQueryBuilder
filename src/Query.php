@@ -1,9 +1,9 @@
 <?php
 
-namespace QueryBuilder;
+namespace robinksp\querybuilder;
 
 use Exception;
-use QueryBuilder\Connection\Mysql;
+use robinksp\querybuilder\Connection\Mysql;
 
 
 class Query extends Mysql

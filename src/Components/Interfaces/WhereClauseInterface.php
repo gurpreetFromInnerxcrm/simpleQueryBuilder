@@ -1,6 +1,6 @@
 <?php
 
-namespace QueyrQueryBuilder\Components\Interfaces\Conditions;
+namespace robinksp\querybuilder\Components\Interfaces\Conditions;
 
 class WhereCondition
 {
