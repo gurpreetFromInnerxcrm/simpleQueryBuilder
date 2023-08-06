@@ -4,10 +4,9 @@ namespace Builder\Connection;
 
 use PDO;
 
-class MySqlConnection implements ConnectionInterface
+class Mysql implements ConnectionInterface
 {
     protected $pdo;
-
 
     public function __construct()
     {

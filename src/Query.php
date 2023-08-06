@@ -3,10 +3,10 @@
 namespace Builder;
 
 use Exception;
-use Builder\Connection\MySqlConnection;
+use Builder\Connection\Mysql;
 
 
-class Query extends MySqlConnection
+class Query extends Mysql
 {
     protected $select = '*';
 
