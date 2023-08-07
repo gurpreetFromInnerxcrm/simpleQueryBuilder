@@ -38,6 +38,26 @@ composer require robinksp/querybuilder
 
 ```
 
+# Insert Example
+
+```bash
+
+require 'vendor/autoload.php';
+
+use robinksp\querybuilder\Query;
+
+if(isset($_POST['submit'])){
+    unset($_POST['submit']);
+    try {
+        $qb = new Query();
+        $qb->table('users')->insert($_POST);
+        echo 'Inserted';
+    } catch (\Throwable $th) {
+            throw $th;
+    }
+}
+```
+
 # Contribution
 Contributions are welcome! If you encounter any bugs, have feature requests, or want to improve the library, feel free to open an issue or submit a pull request.
 
