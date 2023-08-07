@@ -4,7 +4,7 @@ namespace robinksp\querybuilder\Connection;
 
 use PDO;
 
-class Mysql implements ConnectionInterface
+class Mysql
 {
     protected $pdo;
 
